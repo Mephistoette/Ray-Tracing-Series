@@ -16,3 +16,6 @@ bin/
 obj/
 
 *vcxproj*
+
+x64/
+./x64/
