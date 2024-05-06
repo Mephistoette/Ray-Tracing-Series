@@ -1,0 +1,18 @@
+# 忽略 Visual Studio 生成的文件
+.vs/
+
+# 忽略 Visual Studio 项目和解决方案文件
+*.suo
+*.user
+*.sln.cache
+*.dll
+*.exe
+
+# 忽略 Visual Studio 调试日志文件
+*.pdb
+
+# 忽略 Visual Studio 编译输出文件夹
+bin/
+obj/
+
+*vcxproj*
