@@ -19,5 +19,6 @@ obj/
 
 x64/
 
-rayTracingOnOneWeekend/x64/
+rayTracingOnOneWeekend/x64/Debug
+
 
