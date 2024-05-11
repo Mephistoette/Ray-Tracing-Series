@@ -1,4 +1,3 @@
-#pragma once
 #include "rtweekend.h"
 
 #include <iostream>
@@ -6,19 +5,15 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main()
-{
-	int N = 100000;
-	int inside_circle = 0;
-
-	for (int i = 0; i < N; i++)
-	{
-		auto x = random_double(-1, 1);
-		auto y = random_double(-1, 1);
-
-		if (x * x + y * y < 1) inside_circle++;
-	}
-
-	std::cout << std::fixed << std::setprecision(12);
-	std::cout << "Eistmate of Pi = " << (4.0 * inside_circle) / N << "\n";
+int main() {
+    int N = 100000;
+    int inside_circle = 0;
+    for (int i = 0; i < N; i++) {
+        auto x = random_double(-1, 1);
+        auto y = random_double(-1, 1);
+        if (x * x + y * y < 1)
+            inside_circle++;
+    }
+    std::cout << std::fixed << std::setprecision(12);
+    std::cout << "Estimated area of unit circle = " << (4.0 * inside_circle) / N << '\n';
 }
