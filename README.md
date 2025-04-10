@@ -1,2 +1,2 @@
-# OneWeekend
-ray tracing series--on one weekend
+# ray tracing series
+ray tracing series
